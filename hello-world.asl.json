@@ -1,0 +1,13 @@
+{
+  "Comment": "An example of the Amazon States Language",
+  "StartAt": "SetInitialStatus",
+  "States": {
+      "SetInitialStatus": {
+          "Type": "Pass",
+          "Parameters": {
+            "word": "hello world!"
+          },
+          "End": true
+      }
+  }
+}
